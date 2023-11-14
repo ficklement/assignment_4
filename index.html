@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzy Michael's Quality Quirky JavaScript Quiz</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Michael's Coding Quiz Challenge!</h1>
+        <div id="quiz-timer" style="float: right;">Time: <span>0</span></div> 
+    </header>
+    <main>
+        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+        <div id="quiz-container">
+            <button id="start-btn">Get Started</button>
+            <div id="question-container" class="hide">
+                <div id="question">Question</div> 
+                <div id="answer-buttons" class="btn-grid">
+                </div>   
+            </div>
+        </div>
+        <div id="end-screen" class="hide">
+            <h1>Quiz Over!</h1>
+            <input type="text" id="initials" placeholder="Initial Here">
+            <button id="save-btn">Save</button>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="assets/quiz.js"></script>
+</body>
+</html>

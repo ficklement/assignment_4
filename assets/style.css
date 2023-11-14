@@ -1,0 +1,65 @@
+/* Styles for the Start BTN */
+#start-btn {
+    /* Style properties for the Start BTN */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the Q container */
+#question-container {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Styles for Q */
+#question {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Styles the Answer BTN */
+#answer-buttons .btn {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the timer */
+#timer {
+    font-size: 1rem;
+    color: #dc3545;
+}
+
+/* Styles for end screen */
+#end-screen {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Styles for the Save BTN */
+#save-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for initials */
+#initials {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.hide {
+    display: none;
+}
